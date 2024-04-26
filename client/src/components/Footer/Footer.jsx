@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="heading-footer">
-        ShareThe<span>MEAL</span>
+        ShareThe<span>Vision</span>
       </div>
       <div className="div1">
         <h4 className="footer-h4">Who We Are</h4>
@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="div2">
         <h4 className="footer-h4">Get Involved</h4>
-        <p className="footer-p">Request For Food</p>
+        <p className="footer-p">search for jobs</p>
         <p className="footer-p">Partner with Us</p>
       </div>
       <div className="div3">

@@ -8,7 +8,7 @@ const Card = ({ name, des, img }) => {
       <div class="card-content">
         <h2 className="card-heading">{name}</h2>
         <p className="card-description">{des}</p>
-        <button className="btn-card">Donate Now</button>
+        <button className="btn-card">Start Now</button>
       </div>
     </div>
   );

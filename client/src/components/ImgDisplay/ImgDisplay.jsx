@@ -20,11 +20,11 @@ const ImgDisplay = () => {
     <div className="first-display">
       <div className="text">
         <h1 className="img-text">
-          Feeding The <span>Hungry</span>
+          Connecting <span>Talents</span>
         </h1>
-        <h3>We Serve Food To The Needy Peoples</h3>
+        <h3>We Bring Talents were they deserve</h3>
         <button className="btn" onClick={handleDonateNowClick}>
-          Donate Now
+          Start Now
         </button>
       </div>
     </div>

@@ -15,8 +15,8 @@ const Navbar = ({ token }) => {
     <nav className="main">
       <div className="logo">
         <h2>
-          ShareThe
-          <span>MEAL</span>
+          The
+          <span>Oriel</span>
         </h2>
       </div>
       <div className={showMenu ? "nav-items mobile-menu-link" : "nav-items"}>

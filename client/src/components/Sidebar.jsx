@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = () => {
   return (
     <div>
-      <h1>Food Donation</h1>
+      <h1>Oriel For You</h1>
     </div>
   );
 };

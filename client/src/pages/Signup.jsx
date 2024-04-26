@@ -45,7 +45,7 @@ const Signup = () => {
       <div class="signup_wrapper">
         <form>
           <h1>Sign-Up</h1>
-          <p>Create your free account on Food-donation</p>
+          <p>Create your free account on Oriel</p>
 
           <input
             type="text"

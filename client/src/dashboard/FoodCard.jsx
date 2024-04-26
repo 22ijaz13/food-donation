@@ -2,7 +2,7 @@ import React from "react";
 import { FaCalendarAlt, FaCartArrowDown, FaHome } from "react-icons/fa";
 import "./FoodCard.css";
 
-const FoodCard = ({ name, quantity, date, address, tag }) => {
+const FoodCard = ({ name, quantity, date, address }) => {
   return (
     <div>
       <div class="card">
@@ -19,7 +19,7 @@ const FoodCard = ({ name, quantity, date, address, tag }) => {
             borderRadius: "0.5rem",
           }}
         >
-          {tag ? tag : "food"}
+          
         </p>
         <img
           className="foodcard-img"
@@ -34,7 +34,7 @@ const FoodCard = ({ name, quantity, date, address, tag }) => {
                 <span className="icons-name">
                   <FaCartArrowDown />
                 </span>
-                : {quantity} kg
+                : {quantity} Rs
               </li>
               <li>
                 <span className="icons-name">

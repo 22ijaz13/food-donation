@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <div>
       <h1>Dashboard</h1>
-      <p>Here you can see how much food you have donated.</p>
+      <p>Keep yourself Updated here!!.</p>
     </div>
   );
 };

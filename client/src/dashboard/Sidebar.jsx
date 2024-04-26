@@ -16,7 +16,7 @@ const Sidebar = ({ user, isSiderOpen, setIsSiderOpen }) => {
       path: "/dashboard",
     },
     {
-      text: "Food",
+      text: "Vacant Jobs",
       logo: <FaListAlt />,
       path: "/dashboard/food",
     },
@@ -63,7 +63,7 @@ const Sidebar = ({ user, isSiderOpen, setIsSiderOpen }) => {
           <Link to="/">
             <h1>
               <span style={{ color: "#000000", fontSize: "1.5rem" }}>
-                ShareThe<span style={{ color: "red", fontSize: "2rem" }} >MEAL</span>
+                ShareThe<span style={{ color: "red", fontSize: "2rem" }} >VISION</span>
               </span>
             </h1>
           </Link>

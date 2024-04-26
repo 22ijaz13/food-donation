@@ -39,12 +39,12 @@ function FoodDonation() {
   return (
     <div className="foodDonation_container">
       <div className="foodDonation_heading">
-        <h1 className="heading-foodd">FOOD DONATION FORM</h1>
+        <h1 className="heading-foodd">Job Post</h1>
       </div>
       <div className="foodDonation_wrapper">
         <form className="food-donation_form" onSubmit={handleSubmit}>
           <div className="form_element">
-            <label htmlFor="foodName">Food name</label>
+            <label htmlFor="foodName">Position</label>
             <input
               type="text"
               id="foodName"
@@ -54,7 +54,7 @@ function FoodDonation() {
             />
           </div>
           <div className="form_element">
-            <label htmlFor="quantity">Quantity</label>
+            <label htmlFor="quantity">Salary</label>
             <input
               type="number"
               id="quantity"
@@ -65,7 +65,7 @@ function FoodDonation() {
           </div>
 
           <div className="form_element">
-            <label htmlFor="foodTag">Food type or tag</label>
+            <label htmlFor="foodTag">Required</label>
             <select
               id="foodTag"
               name="foodTag"
@@ -75,17 +75,17 @@ function FoodDonation() {
               <option value="" disabled selected>
                 Choose type
               </option>
-              <option value="veg" style={{ color: "black" }}>
-                Veg
+              <option value="Musician" style={{ color: "black" }}>
+                Musicians
               </option>
-              <option value="nonveg" style={{ color: "black" }}>
-                Non Veg
+              <option value="Artists" style={{ color: "black" }}>
+                Artists
               </option>
             </select>
           </div>
 
           <div className="form_element">
-            <label htmlFor="expiryDate">Expiry Date</label>
+            <label htmlFor="expiryDate">Deadline</label>
             <input
               type="date"
               id="expiryDate"
@@ -95,7 +95,7 @@ function FoodDonation() {
             />
           </div>
           <div className="form_element">
-            <label htmlFor="address">Address</label>
+            <label htmlFor="address">Location</label>
             <input
               type="address"
               id="address"

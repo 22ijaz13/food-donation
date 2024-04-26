@@ -40,7 +40,7 @@ const Food = () => {
           width: "100%",
         }}
       >
-        <h1>Food Available</h1>
+        <h1>Jobs available</h1>
         <div
           className="tags"
           style={{
@@ -63,8 +63,8 @@ const Food = () => {
             }}
           >
             <option value="all">All</option>
-            <option value="veg">Veg</option>
-            <option value="nonveg">Non Veg</option>
+            <option value="veg">musicians</option>
+            <option value="nonveg">Artists</option>
           </select>
         </div>
       </div>
